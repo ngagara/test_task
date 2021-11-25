@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML5, CSS3, SCSS, Parcel" />
+    <meta name="author" content="Николай Гагара" />
+    <link href="//db.onlinewebfonts.com/c/03d5b20d124cd26dc873bd4a8e42313e?family=Suisse+Int'l" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/d1a580023d40c546276decde1c711e60?family=Suisse+Intl" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/88f10bf18a36407ef36bf30bc25a3618?family=Suisse+Intl" rel="stylesheet" type="text/css"/>
+    <title>Test-task</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__search search">
+            <input type="text" aria-label="Search through site content" placeholder="Начать поиск"
+                class="search__input">
+            <button type="submit" class="search__button"></button>
+        </div>
+        <img class="search__icon" src="./image/icon.svg"></img>
+    </header>
+    <main class="container">
+        <section class="container__title title">
+            <div class="title__wrapper">
+                <h3 class="title__subtitle">Представляем</h3>
+                <h1 class="title__title-text">Все лучшее впереди</h1>
+            </div>
+        </section>
+        <picture class="container__picture picture">
+            <source srcset="./image/banner478.png" media="(max-width: 500px)">
+            <source srcset="./image/banner576.png" media="(max-width: 950px)">
+            <img class="picture__image" src="./image/banner1010.png" alt="баннер">
+        </picture>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

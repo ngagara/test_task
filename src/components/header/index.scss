@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: center;
+
+    &__search {
+        margin-top: 37px;
+    }
+
+    @include media(1440px) {
+        .header {
+            &__search {
+                margin-top: 41px;
+            }
+        }
+    }
+
+    @include media(950px) {
+        height: 64px;
+
+        .header {
+            &__search {
+                display: none;
+                height: 64px;
+                margin: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.picture {
+    @include media(1440px) {
+        position: absolute;
+        top: 65px;
+        right: -160px;
+    }
+
+    @include media(1280px) {
+        top: 75px;
+    }
+
+    @include media(950px) {
+        right: 0;
+    }
+
+    @include media(750px) {
+        position: sticky;
+        margin-top: 59px;
+    }
+
+}
